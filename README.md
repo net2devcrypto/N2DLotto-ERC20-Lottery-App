@@ -28,3 +28,11 @@ Click for video:
 Click for video:
 
 <a href="https://www.youtube.com/watch?v=zBkYTAIMnN4&list=PLLkrq2VBYc1bvQvr-qogw1bxe3wmc61zG&index=2" target="_blank"><img src="https://github.com/net2devcrypto/misc/blob/main/ytlogo2.png" width="150" height="40"></a> 
+Please watch tutorial video for full walkthru.
+
+<h4>Inside the Part2 Repo Folder:</h4>
+
+<h5>N2D Lotto Smart Contract Sample with Chainlink VRF Integration</h5>
+
+<h5>NodeJS Array Bubble Sort Function Sample</h5>
+
