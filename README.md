@@ -12,7 +12,7 @@
 ** USE IT AT YOUR OWN RISK** **I'M NOT RESPONSIBLE FOR ANY USE, ISSUES ETC.. **
 
 ENTIRE PLAYLIST:
-<a href="https://www.youtube.com/watch?v=qbG549G8hQo&list=PLLkrq2VBYc1bvQvr-qogw1bxe3wmc61zG" target="_blank"><img src="https://github.com/net2devcrypto/misc/blob/main/ytlogo2.png" width="150" height="40"></a>
+<a href="https://www.youtube.com/watch?v=qbG549G8hQo&list=PLLkrq2VBYc1bvQvr-qogw1bxe3wmc61zG" target="_blank"><img src="https://github.com/net2devcrypto/misc/blob/main/ytlogo2.png" width="90" height="20"></a>
 
 
 <h3>Sections</h3>
