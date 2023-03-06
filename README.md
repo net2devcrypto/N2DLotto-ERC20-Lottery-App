@@ -21,4 +21,10 @@ ENTIRE PLAYLIST:
 
 Click for video:
 
-<a href="https://www.youtube.com/watch?v=qbG549G8hQo&list=PLLkrq2VBYc1bvQvr-qogw1bxe3wmc61zG&index=1" target="_blank"><img src="https://github.com/net2devcrypto/misc/blob/main/ytlogo2.png" width="150" height="40"></a> 
+<a href="https://www.youtube.com/watch?v=qbG549G8hQo&list=PLLkrq2VBYc1bvQvr-qogw1bxe3wmc61zG&index=1" target="_blank"><img src="https://github.com/net2devcrypto/misc/blob/main/ytlogo2.png" width="150" height="40"></a>
+
+<img src="https://github.com/net2devcrypto/misc/blob/main/lottopart2.png" width="250" height="90">
+
+Click for video:
+
+<a href="https://www.youtube.com/watch?v=zBkYTAIMnN4&list=PLLkrq2VBYc1bvQvr-qogw1bxe3wmc61zG&index=2" target="_blank"><img src="https://github.com/net2devcrypto/misc/blob/main/ytlogo2.png" width="150" height="40"></a> 
