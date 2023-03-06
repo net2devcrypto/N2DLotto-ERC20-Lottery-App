@@ -1,7 +1,7 @@
 # N2DLotto-ERC20-Lottery-App
 ⚡An ERC20 Crypto Lottery Game App Repo - Build your own lottery game that pays with your own custom ERC20 Token!
 
-<img src="https://github.com/net2devcrypto/misc/blob/main/n2dlotto.png" width="200" height="100">
+<img src="https://github.com/net2devcrypto/misc/blob/main/n2dlotto2.png" width="200" height="100">
 <img src="https://github.com/net2devcrypto/misc/blob/main/n2dlotto.gif" width="300" height="300">
 
 
