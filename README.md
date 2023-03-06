@@ -11,10 +11,6 @@
 
 ** USE IT AT YOUR OWN RISK** **I'M NOT RESPONSIBLE FOR ANY USE, ISSUES ETC.. **
 
+<h3>Repo Menu</h3>
 
-Click for video:
-
-<a href="https://www.youtube.com/watch?v=f_2UJGT3A3k&list=PLLkrq2VBYc1aToY9TIBEGdKGrnBldhid3" target="_blank"><img src="https://github.com/net2devcrypto/misc/blob/main/ytlogo2.png" width="150" height="40"></a> 
-
-
-<h3>Steps to use this Repo</h3>
+<a href="" target="_blank"><img src="https://github.com/net2devcrypto/misc/blob/main/lottopart1.png" width="150" height="40"></a> 
