@@ -11,6 +11,6 @@
 
 ** USE IT AT YOUR OWN RISK** **I'M NOT RESPONSIBLE FOR ANY USE, ISSUES ETC.. **
 
-<h3>Repo Menu</h3>
+<h3>Sections</h3>
 
-<a href="" target="_blank"><img src="https://github.com/net2devcrypto/misc/blob/main/lottopart1.png" width="250" height="90"></a> 
+<img src="https://github.com/net2devcrypto/misc/blob/main/lottopart1.png" width="250" height="90">
