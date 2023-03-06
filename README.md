@@ -13,4 +13,4 @@
 
 <h3>Repo Menu</h3>
 
-<a href="" target="_blank"><img src="https://github.com/net2devcrypto/misc/blob/main/lottopart1.png" width="250" height="70"></a> 
+<a href="" target="_blank"><img src="https://github.com/net2devcrypto/misc/blob/main/lottopart1.png" width="250" height="90"></a> 
