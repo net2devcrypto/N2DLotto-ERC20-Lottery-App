@@ -29,6 +29,12 @@ Click for video:
 
 <a href="https://www.youtube.com/watch?v=zBkYTAIMnN4&list=PLLkrq2VBYc1bvQvr-qogw1bxe3wmc61zG&index=2" target="_blank"><img src="https://github.com/net2devcrypto/misc/blob/main/ytlogo2.png" width="150" height="40"></a> 
 
+<img src="https://github.com/net2devcrypto/misc/blob/main/lottopart3.png" width="250" height="90">
+
+Click for video:
+
+<a href="https://youtu.be/bEQ7wXPBH8E" target="_blank"><img src="https://github.com/net2devcrypto/misc/blob/main/ytlogo2.png" width="150" height="40"></a> 
+
 Please watch tutorial video for full walkthru.
 
 <h4>Inside the Part2 Repo Folder:</h4>
