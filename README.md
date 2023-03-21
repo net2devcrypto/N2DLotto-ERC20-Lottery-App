@@ -51,3 +51,16 @@ Please watch tutorial video for full walkthru.
 
 <h5>Sample ERC-20 Smart Contract used during tutorial</h5>
 
+<img src="https://github.com/net2devcrypto/misc/blob/main/lottopart4.png" width="250" height="90">
+
+Click for video:
+
+<a href="https://www.youtube.com/watch?v=Gz-pXG32yWc" target="_blank"><img src="https://github.com/net2devcrypto/misc/blob/main/ytlogo2.png" width="150" height="40"></a> 
+
+Please watch tutorial video for full walkthru.
+
+<h4>Inside the Part4 Repo Folder:</h4>
+
+<h5>NodeJS Backend Demo Files</h5>
+
+
