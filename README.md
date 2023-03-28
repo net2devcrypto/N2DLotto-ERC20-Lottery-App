@@ -63,4 +63,75 @@ Please watch tutorial video for full walkthru.
 
 <h5>NodeJS Backend Demo Files</h5>
 
+<img src="https://github.com/net2devcrypto/misc/blob/main/lottopart5.png" width="250" height="90">
+
+Click for video:
+
+<a href="" target="_blank"><img src="https://github.com/net2devcrypto/misc/blob/main/ytlogo2.png" width="150" height="40"></a> 
+
+Please watch tutorial video for full walkthru.
+
+## Step 1
+
+Create a new NextJS instance:
+
+```shell
+npx create-next-app lottoadmin
+```
+
+## Step 2
+
+Download the Part5 folder from the repo, open the admin_frontend_files folder, copy and paste the contents inside into your NextJS project folder.
+This includes files and folders, Replace files when prompted.
+
+## Step 3
+
+Install Dependencies:
+
+```shell
+cd lottoadmin
+npm i 
+```
+
+## Step 4
+
+Proceed to update your backend by replacing the backend.js and interfaces.js files with the ones located in the Part5 backend_files folder,
+but FIRST save your private keys, smart contract addresses located in the interfaces.js before replacing. All the values are provided when you deployed and setup the backend during Part4 tutorial. Re-insert your values in the variables accordingly.
+
+```shell
+const lottery = 'ADD_SMART_CONTRACT_ADDRESS';
+const key = 'ADD_CONTRACT_OWNER_WALLET_PRIVATE_KEY';
+const apikey = "ADD_MONGODB_API_KEY";
+const url = "https://data.mongodb-api.com/app/ADD_MONGODB_API_PATH/endpoint/data/v1/action/";
+```
+
+save file! CTRL + S
+
+then start your backend:
+
+```shell
+cd backend
+node backend.js
+```
+
+## Step 5
+
+Proceed to update your config.js file located in the nextjs components folder with your lottery and erc20 smart contract addresses.
+
+save file! CTRL + S
+
+Proceed to update your interfaces.js file located in the nextjs components folder with your backend url address. If you're running the
+backend in the same PC as the frontend, do not modify.
+
+save file! CTRL + S
+
+## Step 6
+
+Start application and test!
+
+```shell
+cd lottoadmin
+npm run dev
+```
+
 
