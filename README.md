@@ -96,7 +96,7 @@ npm i
 ## Step 4
 
 Proceed to update your backend by replacing the backend.js and interfaces.js files with the ones located in the Part5 backend_files folder,
-but FIRST save your private keys, smart contract addresses located in the interfaces.js before replacing. All the values are provided when you deployed and setup the backend during Part4 tutorial. Re-insert your values in the variables accordingly.
+but FIRST save your private keys, smart contract addresses located in the interfaces.js before replacing. You should've provided the values when you deployed and setup the backend during Part4 tutorial. Re-insert your values in the variables accordingly.
 
 ```shell
 const lottery = 'ADD_SMART_CONTRACT_ADDRESS';
