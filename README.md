@@ -163,7 +163,7 @@ Deploy the Lottery Smart Contract to Mumbai Testnet, provide the chainlink vrf s
 N2DLotto-SmartContract-Final.sol
 ```
 
-Once deployed, navigate to your Chainlink VRF subscription and your Lottery Smart Contract address as a consumer.
+Once deployed, navigate to your Chainlink VRF subscription and add your Lottery Smart Contract address as a consumer.
 
 Follow video 1 if you have doubts.
 
