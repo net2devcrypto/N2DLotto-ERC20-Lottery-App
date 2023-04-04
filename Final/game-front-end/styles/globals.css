@@ -1,0 +1,31 @@
+html,
+body {
+  background: rgb(205,81,81);
+background: linear-gradient(159deg, rgba(205,81,81,1) 0%, rgba(150,0,255,1) 98%); 
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.appback {
+  background: rgb(205,81,81);
+background: linear-gradient(159deg, rgba(205,81,81,1) 0%, rgba(150,0,255,1) 98%); 
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
