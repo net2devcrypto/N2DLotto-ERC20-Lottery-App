@@ -134,4 +134,180 @@ cd lottoadmin
 npm run dev
 ```
 
+<img src="https://github.com/net2devcrypto/misc/blob/main/lottopart6.png" width="250" height="90">
+
+Click for video:
+
+<a href="" target="_blank"><img src="https://github.com/net2devcrypto/misc/blob/main/ytlogo2.png" width="150" height="40"></a> 
+
+<h2>Full Lottery Application Setup</h2>
+
+Download the folder "Final" then proceed with steps (This guide assumes you are deploying on Mumbai Testnet but works for other
+testnets:
+
+## Step 1  SMART CONTRACT DEPLOYMENT
+
+Create a Chainlink VRF Subscription. Follow video 1 if you have doubts.
+
+Deploy Sample ERC-20 Token Smart Contract to Mumbai Testnet
+
+```shell
+N2D-ERC20-Sample-SmartContract.sol
+```
+
+Mint ERC-20 Tokens to your wallet and add the token smart contract address to your wallet to confirm you received the tokens.
+
+Deploy the Lottery Smart Contract to Mumbai Testnet, provide the chainlink vrf subscription id and erc-20 token smart contract address to deploy.
+
+```shell
+N2DLotto-SmartContract-Final.sol
+```
+
+Once deployed, navigate to your Chainlink VRF subscription and your Lottery Smart Contract address as a consumer.
+
+Follow video 1 if you have doubts.
+
+## Step 2 Backend DEPLOYMENT
+
+Navigate to the backend folder located on the "Final" folder then install dependencies:
+
+```shell
+cd final
+cd backend
+npm i 
+```
+
+Update the interfaces.js file with your contract addresses and keys: 
+
+```shell
+const lottery = 'ADD-LOTTERY-SMART-CONTRACT';
+const key = 'ADD-SMART-CONTRACT-OWNER-WALLET-PRIVATE-KEY';
+const apikey = "ADD-MONGO-DB-API-KEY";
+const url = "https://data.mongodb-api.com/app/ADD-MONGO-DB-API-PATH/endpoint/data/v1/action/"; // replace "ADD-MONGO-DB-API-PATH" with your api path.
+```
+CTRL + S to save file
+
+Run your backend:
+
+```shell
+cd final
+cd backend
+node backend.js
+```
+
+Follow video 4 if you have doubts.
+
+## Step 3 Admin Front-End DEPLOYMENT
+
+Create a new nextjs instance for your admin front end: 
+
+```shell
+npx create-next-app lottoadmin
+```
+
+If prompted: 
+
+- No typescript
+- yes ESLINT
+- No Src
+- No App
+- Yes alias
+
+
+Copy all the files inside "admin-front-end" folder located on the "Final" folder and paste inside the nextjs "lottoadmin"
+project folder. Replace files when promted.
+
+Navigate to the nextjs "lottoadmin" project front-end folder and install dependencies.
+
+```shell
+cd lottoadmin
+npm i 
+```
+
+Update the config.js file located in the "components" folder with your contract addresses: 
+
+```shell
+const erc20 = 'ADD-ERC-20-SMART-CONTRACT-ADDRESS';
+const lottery = 'ADD-LOTTERY-SMART-CONTRACT-ADDRESS';
+```
+
+CTRL + S to save file
+
+Update the interfaces.js file located in the "components" folder with your backend addresses: 
+
+```shell
+const backend = 'http://ADD-BACKEND-IP-ADDRESS:8082'
+```
+
+CTRL + S to save file
+
+Run the Lotto Admin Front-end:
+
+```shell
+cd lottoadmin
+npm run dev
+```
+
+Confirm you can access the front-end!
+
+Follow video 5 if you have doubts.
+
+## Step 4 Lotto Front-End DEPLOYMENT
+
+Create a new nextjs instance for your game front end: 
+
+```shell
+npx create-next-app lottogame
+```
+
+If prompted: 
+
+- No typescript
+- yes ESLINT
+- No Src
+- No App
+- Yes alias
+
+Copy all the files inside "game-front-end" folder located on the "Final" folder and paste inside the nextjs "lottogame"
+project folder. Replace files when promted.
+
+Navigate to the nextjs "lottogame" project front-end folder and install dependencies.
+
+```shell
+cd lottogame
+npm i 
+```
+
+Update the config.js file located in the "components" folder with your contract addresses: 
+
+```shell
+export const lotterycontract = 'ADD-LOTTO-SMART-CONTRACT';
+export const erc20contract = "ADD-ERC20-SMART-CONTRACT";
+```
+
+CTRL + S to save file
+
+Update the interfaces.js file located in the "components" folder with your backend addresses: 
+
+```shell
+const backend = 'http://ADD-BACKEND-IP-ADDRESS:8082'
+```
+
+CTRL + S to save file
+
+Run the Lotto Game Front-end:
+
+```shell
+cd lottogame
+npm run dev
+```
+
+Confirm you can access the front-end!
+
+Follow Final Video if you have doubts.
+
+
+
+
+
 
